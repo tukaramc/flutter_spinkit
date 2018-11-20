@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/src/utils.dart';
-
+///////  C:\flutter\.pub-cache\hosted\pub.dartlang.org\flutter_spinkit-1.1.0\lib\src
 enum SpinKitWaveType { start, end, center }
 
 class SpinKitWave extends StatefulWidget {
@@ -88,6 +88,8 @@ class _SpinKitWaveState extends State<SpinKitWave> with SingleTickerProviderStat
         width: _size,
         decoration: new BoxDecoration(
           color: widget.color,
+          ////// Chetan border circular change 
+          borderRadius: BorderRadius.circular(10.0),
         ),
       ),
     );
